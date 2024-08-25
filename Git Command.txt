@@ -1,0 +1,42 @@
+# Clone Repository
+
+1)  git init
+2)  git clone https://github.com/Sandesh-bhosale-68/ATS.git
+
+
+#Push Repository 
+
+1)  git init
+2)  git add .
+3)  git status
+4)  git commit -m "Initial commite"
+5)  Remove  origin if addedd
+6)  git remote add origin https://github.com/Sandesh-bhosale-68/ATS.git
+7)  Check Origin
+8)  check branch
+9)  create main brach if require
+10) git push -u origin main
+
+#Remove Origin
+1 ) git remote remove origin
+
+#Check origin pull and push
+git remote -v
+
+#check branch
+1) git brach
+
+#Create Main Branch and move in main branch
+git checkout -b main
+
+# Branch change
+1) git checkout master
+2)git checkput main
+
+
+#delete branch
+1) git branch -d main
+
+#Push code in master
+git push origin master
+
